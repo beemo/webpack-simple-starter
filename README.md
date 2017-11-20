@@ -2,7 +2,7 @@ This is a clone of SinanMtl's much-appreciated webpack-simple-starter. I was usi
 
 1. "npm start" script aliased to "npm run dev".
 2. Disabled autoOpenBrowser for dev env.
-3. Added FormidableLabs' webpack-dashboard package.
+3. Added the FormidableLabs webpack-dashboard plugin.
 
 Thanks for SinanMtl for making this useful starter.
 
