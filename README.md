@@ -1,3 +1,11 @@
+This is a clone of SinanMtl's much-appreciated webpack-simple-starter. I was using the vue-cli webpack template, but growing tired of Vuejs's more "interesting" features. There are only 3 changes to the master:
+
+1. "npm start" script aliased to "npm run dev".
+2. Disabled autoOpenBrowser for dev env.
+3. Added FormidableLabs' webpack-dashboard package.
+
+Thanks for SinanMtl for making this useful starter.
+
 # Webpack Simple Starter
 A simple webpack starter without framework (Like Vue, React, Angular, etc.). This project is inspired from [**vue-cli webpack project**](https://github.com/vuejs/vue-cli#vue-build)
 
