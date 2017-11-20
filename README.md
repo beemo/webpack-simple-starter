@@ -1,4 +1,4 @@
-This is a clone of SinanMtl's much-appreciated webpack-simple-starter. I was using the vue-cli webpack template, but growing tired of Vuejs's more "interesting" features. There are only 3 changes to the master:
+This is a clone of SinanMtl's much-appreciated webpack-simple-starter. I was using the vue-cli webpack template, but was growing tired of Vuejs's more "interesting" features. There are only 3 changes to the master:
 
 1. "npm start" script aliased to "npm run dev".
 2. Disabled autoOpenBrowser for dev env.
