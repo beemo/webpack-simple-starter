@@ -4,6 +4,7 @@ var config = require('../config')
 var merge = require('webpack-merge')
 var baseWebpackConfig = require('./webpack.base.conf')
 var FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
+var DashboardPlugin = require('webpack-dashboard/plugin');
 
 // add hot-reload related code to entry chunks
 Object.keys(baseWebpackConfig.entry).forEach(function (name) {
@@ -20,6 +21,7 @@ module.exports = merge(baseWebpackConfig, {
     new webpack.DefinePlugin({
       'process.env': config.dev.env
     }),
+    new DashboardPlugin(),
     // https://github.com/glenjamin/webpack-hot-middleware#installation--usage
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
